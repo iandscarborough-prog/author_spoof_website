@@ -1,4 +1,5 @@
-Hello. Hello.
+@extends('layouts.main')
 
-<?php
-echo 'hello.';
+@section('content')
+babababa
+@endsection

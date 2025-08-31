@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    background-color: beige;
+}
+footer {
+    margin-top: auto;
+}
+
+.beige_text
+{
+    color: beige;
+}
+
+.home_content
+{
+    background-image: url("/images/towerpic.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    /*background-color: beige;*/
+}
+
+p
+{
+    font-size: 20px;
+}
+
+.main_color
+{
+    background-color: darkgreen;
+}
+
+.kobold_red
+{
+    background-color: #6F3329;
+}
+
+.main_menu
+{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.main_menu li a
+{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    margin: 10px;
+}
+
+.main_menu a:link
+{
+    text-decoration: none;
+    color: beige;
+}
+
+.main_menu a:visited
+{
+    text-decoration: none;
+    color: beige;
+}
+
+.main_menu a:hover
+{
+    text-decoration: underline;
+    color: beige;
+}
+
+.footer_menu
+{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer_menu a:link
+{
+    text-decoration: none;
+    color: beige;
+}
+
+.footer_menu a:visited
+{
+    text-decoration: none;
+    color: beige;
+}
+
+.footer_menu a:hover
+{
+    text-decoration: underline;
+    color: beige;
+}
+
+#main_header
+{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#main_footer
+{
+    bottom: 0px;
+    width: 100%;
+}
