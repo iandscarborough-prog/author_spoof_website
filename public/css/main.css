@@ -3,6 +3,10 @@ body {
     flex-direction: column;
     min-height: 100dvh;
     background-color: beige;
+    font-family: "Crimson Text", "Times", "Times New Roman", "Georgia", serif;
+}
+.black_background {
+    background-color: black;
 }
 footer {
     margin-top: auto;
@@ -13,12 +17,47 @@ footer {
     color: beige;
 }
 
-.home_content
+.fade_to_black
 {
-    background-image: url("/images/towerpic.png");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    /*background-color: beige;*/
+    background-image: linear-gradient(transparent, black);
+    width: 100%;
+}
+
+.fade_from_black
+{
+    background-image: linear-gradient(transparent, black);
+    width: 100%;
+}
+
+#main_page_buffer_1
+{
+    height: 100px;
+    margin-top: 100px;
+}
+
+@media (min-width:801px) {
+    .home_content {
+        background-color: black;
+        background-image: url("/images/mushroom.png");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-attachment: fixed;
+        background-position: 0px -30px;
+    }
+}
+@media (max-width: 800px) {
+    .home_content {
+        background-color: black;
+        background-image: url("/images/mushroomflip.png");
+        background-repeat: no-repeat;
+        background-size: 1000px;
+        background-attachment: fixed;
+        background-position: -200px -30px;
+    }
+    .hide_from_mobile
+    {
+        display: none;
+    }
 }
 
 p
@@ -36,20 +75,24 @@ p
     background-color: #6F3329;
 }
 
-.main_menu
-{
-    display: flex;
-    text-decoration: none;
-    list-style-type: none;
+@media (min-width:801px) {
+
+    .main_menu {
+        display: flex;
+    }
+
+    .main_menu li a {
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 5px;
+        padding-bottom: 8px;
+        margin: 10px;
+    }
 }
 
-.main_menu li a
-{
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-top: 5px;
-    padding-bottom: 8px;
-    margin: 10px;
+.main_menu {
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .main_menu a:link
@@ -95,6 +138,41 @@ p
     color: beige;
 }
 
+#book_bugs
+{
+
+}
+
+.book_large
+{
+    background-repeat: no-repeat;
+}
+
+.book_large .book_title
+{
+    padding-top: 10px;
+    padding-left: 70px;
+    font-size: 45px;
+}
+
+.book_large .book_author
+{
+    padding-top: 430px;
+    padding-left: 99px;
+    font-size: 29px;
+}
+
+.book_title
+{
+    position: absolute;
+    color: white;
+}
+.book_author
+{
+    position: absolute;
+    color: white;
+}
+
 #main_header
 {
     display: flex;
@@ -106,4 +184,17 @@ p
 {
     bottom: 0px;
     width: 100%;
+}
+
+#main_name_block
+{
+    margin-top: 80px;
+}
+
+#main_bottom_section
+{
+    background-color: #121112;
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
