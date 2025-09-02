@@ -31,7 +31,7 @@
                     <h2>Money Bugs</h2>
                     <p>Coming Soon</p>
                     <p>Dalloh, the least successful son of a self-made galactic-class tycoon, has spent his life chasing an inheritance that is always just barely out of his reach.</p>
-                    <p>His fortune has escaped his grasp in a hundred ways, sometimes even literally crawling away. But this time he has a new plan that might just work.</p>
+                    <p>His fortune has escaped his grasp in a hundred ways already. But this time he has a new plan that might just work. Find out if our hero's wealth manages to literally crawl away.</p>
                 </div>
             </div>
 
@@ -51,6 +51,7 @@
                         </div>
                     </div>
                 </div>
+                <div id="art_credit">Artwork by Google Gemini</div>
             </div>
         </div>
     </div>

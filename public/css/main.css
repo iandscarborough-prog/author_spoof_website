@@ -210,5 +210,13 @@ p
     background-color: #121112;
     margin-top: 50px;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+}
+
+#art_credit
+{
+    text-align: center;
+    width: 100%;
+    margin-top: 45px;
+    font-size: 13px;
 }
