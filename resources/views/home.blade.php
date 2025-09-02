@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
+    <input id="menu_item_disabler" type="hidden" value="home_link">
     <div class="home_content text-white">
         <div class="container-fluid p-5 text-center">
             <div id="main_name_block">
